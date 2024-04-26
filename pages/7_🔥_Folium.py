@@ -19,6 +19,9 @@ with st.expander("See source code"):
     with st.echo():
         m = thebeans.Map()
         m.add_basemap("OpenTopoMap")
+        m.add_basemap("Esri.WorldImagery")
+        m.add_basemap("NASAGIBS.ViirsEarthAtNight2012")
+        m.add_layer_control()
         
 
 m.to_streamlit(width = 1000, height=700)
