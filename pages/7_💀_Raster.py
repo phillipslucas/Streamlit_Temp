@@ -10,10 +10,10 @@ A Streamlit map template
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.imgur.com/UbOXYAU.png"
+logo = r"C:\Users\phill\Downloads\RiverFire_AIlogo.jpg"
 st.sidebar.image(logo)
 
-st.title("Split-panel Map")
+st.title("2023 Libya Floods")
 
 with st.expander("See source code"):
     with st.echo():
@@ -22,6 +22,6 @@ with st.expander("See source code"):
             left_layer="https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-07-01.tif", 
             right_layer="https://github.com/opengeos/datasets/releases/download/raster/Libya-2023-09-13.tif"
         )
-        m.add_legend(title="Libya Floods 2023", builtin_legend="ESA_WorldCover")
+        
 
 m.to_streamlit(height=700)
