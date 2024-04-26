@@ -1,3 +1,5 @@
+install thebeans
+
 import streamlit as st
 import thebeans.foliummap as thebeans
 
