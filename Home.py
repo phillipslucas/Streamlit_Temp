@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-A Streamlit map template
+A Streamlit map template called river fire
 <https://github.com/phillipslucas/Streamlit_Temp>
 """
 

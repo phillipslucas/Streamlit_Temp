@@ -21,6 +21,7 @@ with st.expander("See source code"):
         m.add_basemap("OpenTopoMap")
         m.add_basemap("Esri.WorldImagery")
         m.add_basemap("NASAGIBS.ViirsEarthAtNight2012")
+        # m.add_tile_layer("https://github.com/opengeos/datasets/releases/download/raster/landsat7.tif", "Landsat7")
         m.add_layer_control()
         
 
