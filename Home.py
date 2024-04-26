@@ -11,7 +11,7 @@ A Streamlit map template
 
 st.sidebar.title("About")
 st.sidebar.info(markdown)
-logo = "https://i.gifer.com/embedded/download/RolG.gif"
+logo = "https://raw.githubusercontent.com/phillipslucas/Streamlit_Temp/main/data/RiverFire_AIlogo.jpg"
 st.sidebar.image(logo)
 
 # Customize page title
